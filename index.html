@@ -25,7 +25,7 @@
 			<div class="col-md">
 				<div class="card my-1">
 					<div class="card-body lead">
-						<h1>AI-Researcher-NII</h1>
+						<h1>Researcher-NII</h1>
 						<div>情報・システム研究機構 国立情報学研究所 特任研究員</div>
 						<a href="https://www.nii.ac.jp">National Institute of Informatics (NII), Japan.</a>
 					</div>
@@ -35,7 +35,7 @@
 				<div class="card my-1">
 					<div class="card-body lead">
 						<h1>PhD-IST</h1>
-						<div>東京大学情報理工学系研究科 博士 (電子情報学) 取得</div>
+						<div>東京大学情報理工学系研究科 博士 (情報理工学) 取得</div>
 						<a href="https://www.i.u-tokyo.ac.jp">Doctoral Degree at The University of Tokyo.</a>
 					</div>
 				</div>
@@ -56,17 +56,19 @@
 		<div class="card my-2">
 			<div class="card-body">
 				<h1><i class="fas fa-truck-monster"></i> Deep Sensing Approach to Health Monitoring</h1>
-				<p class="lead">今、日本では橋梁や隧道をはじめ、高度成長期に整備された社会基盤の維持管理が課題となっています。そこで、土木工学の知見と機械学習の技術を糾合し、知識発見的に劣化を見つける仕組みを開発しています。目指すのは、壊れれば自然に痛みを感じる、生き物のような社会基盤です。現場に足を運び、情報技術の強みを生かして、路面負荷状況把握のための自動車重量推定やセンサ異常分析など、実用的なアプリケーションを実現しました。特徴は、映像解析を駆使し、吹雪や悪天候の状況を含む、高精度な100万台分の通過車両データセットを収集し、センサ信号処理用のニューラルネットワークを訓練した点にあります。</p>
+				<p class="lead">今、日本では橋梁や隧道をはじめ、高度成長期に整備された社会基盤の維持管理が課題となっています。そこで、土木工学の知見と機械学習の技術を糾合し、知識発見的に劣化を見つける仕組みを開発しています。目指すのは、壊れれば自然に痛みを感じる、生き物のような社会基盤です。</p>
+				<p>現場に足を運び、橋梁にカメラやセンサを設置して、自動車重量推定や、センサ信号の異常分析など、実用的なアプリケーションを実現しました。特徴は、映像解析により、吹雪や悪天候の状況を含む、高精度な100万台分の通過車両データセットを収集して、マルチタスク学習により、橋梁の力学的特性をニューラルネットワークに学習させた点にあります。</p>
 				<a href="https://www.nii.ac.jp/news/release/2017/0928.html">IoTでインフラを守る CEATEC 主催者企画IoTタウン2017-2018.</a>
 			</div>
 		</div>
 
 		<div class="card my-2">
 			<div class="card-body">
-				<a href="https://www.nii.ac.jp/research/projects/sip/">
-					<h1><i class="fas fa-fire"></i> <strong>HotBridge PIERS</strong></h1>
+				<a href="https://www.jst.go.jp/sip/event/k07/pdf/k07_event20180719_2-4.pdf">
+					<h1><i class="fas fa-fire"></i> <strong>HotBridge PIERS (MEADASS)</strong></h1>
 				</a>
-				<p>国立情報学研究所の<a href="https://www.nii.ac.jp/en/faculty/digital_content/takasu_atsuhiro/">高須淳宏教授</a>・<a href="https://www.nii.ac.jp/faculty/digital_content/aihara_kenro/">相原健郎准教授</a>・<a href="http://www.adl.nii.ac.jp/~kinoshita/">木下僚博士</a>とともに橋梁等の道路インフラの構造的ヘルスモニタリングのための道路管理者・研究者向けのメディア統合解析システムのモックアップ(呼称: MEADASS)を試作しました。通過車両の諸元情報(車線・速度・軸数・時間帯)を設定すると通過車両が画像付きでリスト表示され、画像をクリックするとセンサデータや簡単な解析結果を確認できます。通過車両検知は私の研究成果を利用しています。私の開発担当は検索用フロントエンドシステムです。当初は私が得意とするScalaとPlayFrameworkとBootstrapとH2DBでの試作でしたが、後に業者委託にてDjangoに移植されました。研究成果を世に送り出すための仕事です。</p>
+				<p class="lead">土木技術者と橋梁管理者のための橋梁センシングデータの検索システムを開発しました。</p>
+				<p>特定の属性を持つ自動車が通過した際の応答データを検索するウェブインターフェースです。また、映像やセンサの時系列信号や点検記録などのマルチメディアデータの管理基盤でもあります。通過車両が画像付きでリスト表示され、画像をクリックするとセンサデータや簡単な解析結果を確認できます。私の開発担当は、検索用のフロントエンドと通過車両検知のアルゴリズムです。国立情報学研究所の<a href="https://www.nii.ac.jp/en/faculty/digital_content/takasu_atsuhiro/">高須淳宏教授</a>・<a href="https://www.nii.ac.jp/faculty/digital_content/aihara_kenro/">相原健郎准教授</a>・<a href="http://www.adl.nii.ac.jp/~kinoshita/">木下僚博士</a>と共同で開発しました。とある雪国の橋梁のデータでデモを実施しました。</p>
 				<img class="img-fluid" src="daq.svg" width="100%" alt="DAQ system for bridge SHM">
 			</div>
 		</div>
@@ -75,16 +77,18 @@
 			<div class="col-md">
 				<div class="card my-1">
 					<div class="card-body">
-						<h1><i class="fas fa-truck"></i> <strong>Fully-Neural BWIM</strong></h1>
-						<span>映像とセンサを駆使して各地の橋梁を繋ぎ、集合知型の重量学習推定システムを構築して、道路網を走る自動車の重量や諸元を把握する。高速道路事業者や東大橋梁研と連携し、実用化に向けた共同研究を実施中。将来的に道路網の点検修復計画の最適化に役立つ技術です。</span>
+						<h1><i class="fas fa-truck"></i> <a href="#BWIM"><strong>Fully-Neural BWIM</strong></a></h1>
+						<p class="lead">道路網の路面の負荷状況の把握に役立つ技術です。</p>
+						<p>カメラとセンサを駆使して各地の橋梁を繋ぎ、自律的に学習する重量推定器を構築して、橋梁を通過する自動車の重量や諸元を把握する。高速道路事業者や東大橋梁研と連携し、実用化に向けた共同研究を実施中。</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-md">
 				<div class="card my-1">
 					<div class="card-body">
-						<h1><i class="fas fa-ambulance"></i> <strong>Media-Fusion HMS</strong></h1>
-						<span>自動車が橋梁を通過した際の映像とセンサ信号の特徴量を結合し、正常なセンサ信号を予測したり、同じ特徴空間で特徴量を比較したりして、センサや橋梁構造の異常を発見する。国内数箇所の橋梁で実証実験を実施しました。受託研究により、内々の分析実績もあります。</span>
+						<h1><i class="fas fa-ambulance"></i> <a href="#HMS"><strong>Media-Fusion HMS</strong></a></h1>
+						<p class="lead">建設事業者の受託研究による分析実績があります。</p>
+						<p>自動車が橋梁を通過した際の映像とセンサ信号の特徴量を結合し、正常なセンサ信号を予測したり、同じ特徴空間で特徴量を比較したりして、センサや橋梁構造の異常を発見する。国内数箇所の橋梁で実証実験を実施しました。</p>
 					</div>
 				</div>
 			</div>
@@ -93,24 +97,25 @@
 		<div class="card my-2">
 			<div class="card-body">
 				<h1><i class="fas fa-terminal"></i> Programming Skills</h1>
-				<p>Scala (Parser Combinators, PlayFramework), Java (Gradle, JUnit, Swing, JavaFX), Python (numpy, matplotlib, Chainer, PyTorch, OpenCV, Anaconda), Dlang, C/C++ (OpenMP, pthreads, IntelTBB, NUMA, PGAS), LISP, Ruby (Rails, JRuby), Apache, SQL (H2DB), HTML5, CSS (Bootstrap), LaTeX (LuaLaTeX), Git, CUDA.</p>
+				<p>Scala (Parser Combinators, PlayFramework), Java (Gradle, JUnit, Swing, JavaFX), Python (numpy, matplotlib, Chainer, PyTorch, OpenCV, Anaconda), Dlang, C/C++ (OpenMP, pthreads, IntelTBB, libnuma, PGAS), LISP (自作), Ruby (Rails, JRuby), Chapel, Apache, SQL (H2DB), HTML5, CSS (Bootstrap), LaTeX (Beamer, TikZ, LuaLaTeX), Git, CUDA (cupy).</p>
 				<p>#opencvinstallbattle, #caffeinstallbattle, #cudainstallbattle, #gentooinstallbattle.</p>
 				<p>好きなLinuxディストリビューションは Arch Linux (初心者でもpacmanが何とかしてくれる). 共有計算機には無難にUbuntuですね.</p>
 				<p>職務: 映像解析, 信号処理, 深層学習, 共用計算機の調達・保守, 深層学習環境の構築・保守, 計算機利用学生支援 (デバッグ), LDAP管理, etc.</p>
-				<p>奉仕: 出身サークルが毎年開催している競技大会のオンライン参加登録・審査・集計業務システムの設計・DSL開発・フレームワーク化・運用・技術支援の業務.</p>
 			</div>
 		</div>
 
 		<div class="card my-2">
 			<div class="card-body">
 				<h1><i class="fas fa-heart"></i> Interests</h1>
-				<p class="lead"><a href="http://www-sato.cc.u-tokyo.ac.jp/SATO.Hiroyuki/PLDI2014/PLDI2014_reviewcomments.pdf">プログラミング言語処理系を作るのが趣味です。</a>ドメイン特化言語の自作を含め、プログラミングフレームワークを作るのが大好きな実装屋です。コンパイラの講義と実験は必ず履修し、コンパイラと関係ない講義課題でも隙あらば言語処理系を作る学生でした。学部時代に田浦研究室を志望したのも高性能計算と言語処理系に憧れたからです。その後、修士課程で配属された安達研究室では、プローブカーデータマイニングを高速化するためのワークスティーリング方式のタスク並列処理系を開発しました。博士課程ではGPUを駆使した交通映像解析に熱中しました。</p>
+				<p class="lead"><a href="http://www-sato.cc.u-tokyo.ac.jp/SATO.Hiroyuki/PLDI2014/PLDI2014_reviewcomments.pdf">プログラミング言語処理系を作るのが趣味です。</a></p>
+				<p>ドメイン特化言語の自作を含め、プログラミングフレームワークを作るのが大好きな実装屋です。コンパイラの講義と実験は必ず履修し、コンパイラと関係ない講義課題でも隙あらば言語処理系を作る学生でした。学部時代に田浦研究室を志望したのも高性能計算と言語処理系に憧れたからです。その後、修士課程で配属された安達研究室では、<a href="https://doi.org/10.1109/BigData.2014.7004488">プローブカーデータマイニング</a>を高速化するためのワークスティーリング方式のタスク並列処理系を開発しました。博士課程ではGPUを駆使した交通映像解析に熱中しました。</p>
 			</div>
 		</div>
 		<div class="card my-2">
 			<div class="card-body">
 				<h1><i class="fas fa-running"></i> Always Ready for Opportunity</h1>
-				<p>苦しい状況下でも、自分の置かれた環境を見定め、情報学の主流研究に固執せず、他分野の専門家と連携して、学際分野でひと旗揚げる柔軟さが自分の強みです。博士課程2年の夏は、研究の新規性で本当に苦しみました。橋梁にカメラやセンサを設置して、固有振動から橋梁の劣化検知を行う研究を始めた頃です。しかし、自分の研究の独自性を明確にできず、悩みすぎて夜も眠れぬ日々でした。何とかしてその状況を抜け出そうと、ひたすらセンサデータを解析したところ、小さな発見をしました。何と、橋桁にたったひとつひずみゲージを付けるだけで、上を通過する自動車の様々な諸元が、手に取るように推定できたのです。ぱっと見て無価値なデータが、豊かな情報源と化した瞬間でした。そして、この発見がより大きな研究への突破口となることに気づいたとき、応用研究の面白さに心を奪われていました。その後はヘルスモニタリング系や知識発見系の国際会議に片っ端から投稿し、信号処理を活用した構造ヘルスモニタリングの技術開発で博士号を取得しました。</p>
+				<p class="lead">情報学の主流研究に固執せず、他分野の専門家と連携して、学際分野でひと旗揚げる柔軟さが自分の強みです。</p>
+				<p>博士課程2年の夏は、研究の新規性で本当に苦しみました。橋梁にカメラやセンサを設置して、固有振動から橋梁の劣化検知を行う研究を始めた頃です。自分の研究の独自性を明確にできず、悩みすぎて夜も眠れぬ日々でした。何とか苦況を抜け出そうと、ひたすらセンサデータを解析したところ、小さな発見をしました。橋桁にひずみゲージを付けるだけで、上を通過する自動車の様々な諸元が、手に取るように推定できたのです。ぱっと見て無価値なデータが、豊かな情報源と化した瞬間でした。この発見がより大きな研究への突破口となることに気づいたとき、応用研究の面白さに心を奪われていました。その後はヘルスモニタリング系や知識発見系の国際会議に片っ端から投稿し、映像解析と信号処理を活用した構造ヘルスモニタリングの技術開発で博士号を取得しました。</p>
 			</div>
 		</div>
 
@@ -118,15 +123,7 @@
 			<div class="card-header h1"><i class="fas fa-book-reader"></i> Articles 2020</div>
 			<div class="card-body">
 				<div class="my-3 py-3 border-top border-bottom">
-					<a href="https://www.micc.unifi.it/icpr2020/">
-						<h4>Fully-Neural Approach to Girder Strain Prediction from Acceleration Signals on Bridges</h4>
-					</a>
-					<div><u>Takaya Kawakatsu</u>, Kenro Aihara, Atsuhiro Takasu, Jun Adachi, Haoqi Wang, and Tomonori Nagayama.</div>
-					<div>ACCEPTED WITH MAJOR REVISIONS, 25th International Conference on Pattern Recognition (ICPR), 2020.</div>
-				</div>
-
-				<div class="my-3 py-3 border-top border-bottom">
-					<a href="https://doi.org/10.1109/ICASSP40776.2020.9053137">
+					<a href="https://doi.org/10.1109/ICASSP40776.2020.9053137" id="BWIM">
 						<h4>Fully-Neural Approach to Heavy Vehicle Detection on Bridges Using a Single Strain Sensor</h4>
 					</a>
 					<div><u>Takaya Kawakatsu</u>, Kenro Aihara, Atsuhiro Takasu, and Jun Adachi.</div>
@@ -136,7 +133,7 @@
 				</div>
 
 				<div class="my-3 py-3 border-top border-bottom">
-					<a href="https://www.iabmas2020.org">
+					<a href="https://www.iabmas2020.org" id="HMS">
 						<h4>Deep learning approach to modeling bridge dynamics using cameras and sensors</h4>
 					</a>
 					<div><u>Takaya Kawakatsu</u>, Kenro Aihara, Atsuhiro Takasu, and Jun Adachi.</div>
